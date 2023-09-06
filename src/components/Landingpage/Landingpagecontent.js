@@ -68,7 +68,7 @@ const Landingpagecontent = () => {
           <div className="side-products ">
             <div className="titile-side-products">
               <p>200 + Options</p>
-              <h1>Recommendede Products </h1>
+              <h1>Recommended Products </h1>
             </div>
             <Divider sx={{ borderColor: "#b4b6b7" }} />
             <div
