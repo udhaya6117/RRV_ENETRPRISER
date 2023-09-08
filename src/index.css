@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url("./fonts/Poppins-Thin.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("./fonts/Poppins-Black.ttf");
+}
+@font-face {
+  font-family: "Barlow-Medium";
+  src: url("./fonts/Barlow-Medium.ttf");
+}
+@font-face {
+  font-family: "Barlow-SemiBold";
+  src: url("./fonts/Barlow-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Barlow-Bold";
+  src: url("./fonts/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: "Barlow-Black";
+  src: url("./fonts/Barlow-Black.ttf");
+}
+@font-face {
+  font-family: "Barlow-Regular";
+  src: url("./fonts/Barlow-Regular.ttf");
+}
