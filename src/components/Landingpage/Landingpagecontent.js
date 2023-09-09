@@ -15,10 +15,12 @@ import ListSubheader from "@mui/material/ListSubheader";
 import CommentIcon from "@mui/icons-material/Comment";
 import Pagination from "@mui/material/Pagination";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import logo from "../../components/img/RRV_ENTERPRISE_logo.png"
 
 const Landingpagecontent = () => {
   const [checked, setChecked] = React.useState([0]);
@@ -316,9 +318,138 @@ const Landingpagecontent = () => {
               </div>
             </div>
           </div>
-          <div>edew</div>
-          <div>ewdew</div>
-          <div>deded</div>
+          <div className="footer-box-2">
+            <div className="header-footer">
+              <h3>Usefull Links</h3>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+              />
+              <text>Home</text>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+              />
+              <text>About Us</text>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+              />
+              <text>Service</text>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+              />
+              <text>Terms of service</text>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+              />
+              <text>Privacy policy</text>
+            </div>
+          </div>
+          <div className="footer-box-3">
+            <div className="header-footer">
+              <h3>Our Service</h3>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+              />
+              <text>Marketing</text>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+                />
+                <text>Product Management</text>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+              />
+              <text>Service</text>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+              />
+              <text>Terms of service</text>
+            </div>
+            <div className="links-name">
+              <ArrowForwardIosIcon
+                sx={{
+                  fontSize: 12,
+                  marginTop: "3px",
+                  fontWeight: "800",
+                  color: "#0894aa",
+                }}
+              />
+              <text>Privacy policy</text>
+            </div>
+          </div>
+          <div className="footer-box-4">
+              <div className="logo-box-footer">
+              <img src={logo} alt="logo" />
+              </div>
+          </div>
+        </div>
+        <div style={{padding:"10px 55px"}}>
+        <Divider sx={{borderColor:"#093339"}} />
+        <div style={{textAlign:"center"}}>
+          <p>&#169; Copyright RRV Enterprise.All Rights Reserved</p>
+          
+        </div>
         </div>
       </div>
     </>

@@ -201,7 +201,7 @@
 
 .footer-content{
   display: grid;
-  grid-template-columns: 35% 15% 15% 35%;
+  grid-template-columns: 35% 20% 20% 25%;
   padding: 20px 0px;
 }
 
@@ -250,5 +250,35 @@
 }
 
 .icon-footer:hover{
- background-color: #0894aa !important;
+ background-color: #096f7e !important;
+}
+
+.footer-box-2 .header-footer h3{
+  font-family: "Poppins-SemiBold";
+ 
+}
+
+.links-name{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding-left: 10px;
+  font-family: "Poppins-Regular";
+}
+.footer-box-4{
+  padding: 0px 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-box-footer img{
+  width: 100%;
+
+}
+
+.logo-box-footer{
+  width: 50%;
 }
