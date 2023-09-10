@@ -20,7 +20,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import logo from "../../components/img/RRV_ENTERPRISE_logo.png"
+import logo from "../../components/img/RRV_ENTERPRISE_logo.png";
 
 const Landingpagecontent = () => {
   const [checked, setChecked] = React.useState([0]);
@@ -401,8 +401,8 @@ const Landingpagecontent = () => {
                   fontWeight: "800",
                   color: "#0894aa",
                 }}
-                />
-                <text>Product Management</text>
+              />
+              <text>Product Management</text>
             </div>
             <div className="links-name">
               <ArrowForwardIosIcon
@@ -439,17 +439,16 @@ const Landingpagecontent = () => {
             </div>
           </div>
           <div className="footer-box-4">
-              <div className="logo-box-footer">
+            <div className="logo-box-footer">
               <img src={logo} alt="logo" />
-              </div>
+            </div>
           </div>
         </div>
-        <div style={{padding:"10px 55px"}}>
-        <Divider sx={{borderColor:"#093339"}} />
-        <div style={{textAlign:"center"}}>
-          <p>&#169; Copyright RRV Enterprise.All Rights Reserved</p>
-          
-        </div>
+        <div style={{ padding: "10px 55px" }}>
+          <Divider sx={{ borderColor: "#093339" }} />
+          <div style={{ textAlign: "center" }}>
+            <p>&#169; Copyright RRV Enterprise.All Rights Reserved</p>
+          </div>
         </div>
       </div>
     </>

@@ -2,6 +2,7 @@ import React from "react";
 import "../../components/Landingpage/Landingpage.css";
 import Landingpageheader from "./Landingpageheader";
 import Landingpagecontent from "./Landingpagecontent";
+import { Outlet } from "react-router-dom";
 
 
 const Landingpage = () => {
@@ -10,8 +11,8 @@ const Landingpage = () => {
       <div className="fixed-header">
         <Landingpageheader />
       </div>
-      <div>
-       <Landingpagecontent />
+      <div className="content-box">
+       <Outlet />
       </div>
     </div>
   );

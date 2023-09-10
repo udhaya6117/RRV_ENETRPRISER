@@ -1,8 +1,16 @@
 import { AppBar, Button, Container, Toolbar, Typography } from "@mui/material";
 import React from "react";
 import logo from "../img/RRV_ENTERPRISE_logo.png";
+import { Navigate, useLocation, useNavigate } from "react-router-dom";
+import { ROUTINGDATA } from "../../ROUTINGDATA";
+
 
 const Landingpageheader = () => {
+  const Navigate = useNavigate();
+  
+  const location = useLocation();
+  const curreturl = location.pathname;
+  
   return (
     <div>
       <AppBar
@@ -23,14 +31,18 @@ const Landingpageheader = () => {
               </div>
             </Typography>
             <div className="linkbtn">
-               <div className="btn-link">
-                 <span>Home</span>
+               <div className={curreturl === ROUTINGDATA.LAND + ROUTINGDATA.LANDINGPAGEHOME ? "btn-link-a":"btn-link"}>
+                 <span onClick={()=>{
+                  Navigate(ROUTINGDATA.LANDINGPAGEHOME);
+                 }}>Home</span>
                </div>
                <div className="btn-link">
                  <span>Services</span>
                </div>
-               <div className="btn-link">
-                 <span>Products</span>
+               <div className={curreturl === ROUTINGDATA.LAND + ROUTINGDATA.LANDINGPAGECONTENT ? "btn-link-a":"btn-link"}>
+                 <span onClick={()=>{
+                  Navigate(ROUTINGDATA.LANDINGPAGECONTENT);
+                 }}>Products</span>
                </div>
             </div>
             <div className="reg-btn">
