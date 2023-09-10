@@ -390,5 +390,201 @@
   background: #08c3de;
   margin-top: 15px;
   border: transparent;
+  cursor: pointer;
   
+}
+
+
+.aboutus{
+  padding: 60px 0;
+}
+
+.sub-title{
+  text-align: center;
+}
+.sub-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Poppins-SemiBold";
+  position: relative;
+  color: #030d16;
+}
+.sub-title h2:before,
+.sub-title h2:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #08c3de;
+  display: inline-block;
+}
+
+.sub-title h2:before {
+  margin: 0 15px 10px 0;
+}
+
+.sub-title h2:after {
+  margin: 0 0 10px 15px;
+}
+
+
+.aboutus-content{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+
+.aboutus-box-1,.aboutus-box-2{
+  padding: 0px 25px;
+}
+
+.aboutus-box-1 p{
+  font-family: "Poppins-Regular";
+  color: #444444;
+  font-size: 14px;
+}
+
+.aboutus-box-1 ul li{
+  font-family: "Poppins-Regular";
+  color: #444444;
+  font-size: 14px;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.aboutus-box-2 h3{
+  margin-top: 8px;
+  font-family: "Poppins-SemiBold";
+  color: #08c3de;
+}
+.aboutus-box-2 p{
+  font-family: "Poppins-Regular";
+  color: #444444;
+  font-size: 14px;
+}
+
+.aboutus-box-2 .btn{
+  font-family: "Poppins-Regular";
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  animation-delay: 0.8s;
+  background: #08c3de;
+  margin-top: 15px;
+  border: transparent;
+  cursor: pointer;
+}
+
+
+.Our-Services{
+  background-color: #f4f4f4;
+}
+
+.Our-Services-divide{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.services-header h2{
+   font-family: "Poppins-SemiBold";
+}
+.our-service-box-1 p{
+  font-family: "Poppins-Regular";
+  color: #444444;
+}
+.our-service-box-2{
+  padding: 20px;
+}
+.our-service-box-2 .our-service-box-2-content{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.service-content-1,.service-content-2{
+  padding: 20px;
+}
+.service-content-1{
+  margin-top: 35px;
+}
+
+
+.service-content-1 div:nth-child(1){
+  padding: 50px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.service-content-1 div:nth-child(1) h3{
+  font-family: "Poppins-SemiBold";
+}
+.service-content-1 div:nth-child(1) p{
+  font-family: "Poppins-Regular";
+  color: #444444;
+  font-size: 14px;
+}
+
+
+.service-content-1 div:nth-child(2){
+  padding: 50px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  background-color: white;
+}
+.service-content-1 div:nth-child(2) h3{
+  font-family: "Poppins-SemiBold";
+}
+.service-content-1 div:nth-child(2) p{
+  font-family: "Poppins-Regular";
+  color: #444444;
+  font-size: 14px;
+}
+
+.service-content-2 div:nth-child(1){
+  padding: 50px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.service-content-2 div:nth-child(1) h3{
+  font-family: "Poppins-SemiBold";
+}
+.service-content-2 div:nth-child(1) p{
+  font-family: "Poppins-Regular";
+  color: #444444;
+  font-size: 14px;
+}
+.service-content-2 div:nth-child(2){
+  padding: 50px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-top: 20px;
+}
+.service-content-2 div:nth-child(2) h3{
+  font-family: "Poppins-SemiBold";
+}
+.service-content-2 div:nth-child(2) p{
+  font-family: "Poppins-Regular";
+  color: #444444;
+  font-size: 14px;
+}
+.services-header{
+  color: #08c3de;
+}
+
+.service-icon{
+  background-color:rgba(129,255,238,0.2) ;
+}
+.our-service-box-1{
+  display: grid;
+  place-items: center;
 }
