@@ -1,39 +1,30 @@
-.content-box{
-  height: 100vh;
- overflow: auto;
-  overflow-y: auto;
-  overflow-x: hidden;
- 
-}
 
-.content-box::-webkit-scrollbar{
-  width: 8px;
-}
-
-/* .content-box::-webkit-scrollbar-track{
-  background-color: transparent;
-} */
-.content-box::-webkit-scrollbar-thumb{
-  background:linear-gradient(#08c3de,#f4f6a4) ;
-  border-radius: 5px;
-}
 
 .fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100; /* Adjust the z-index as needed to control layering */
-    /* Add other styling properties like padding, height, etc. */
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; /* Adjust the z-index as needed to control layering */
+  /* Add other styling properties like padding, height, etc. */
+}
 
-
-
-
-
-
-
-
+.headerbackground {
+  box-shadow: 0px 0px 8px 2px rgba(10, 68, 122, 0.7) !important;
+  padding: 0px 10px !important;
+  background-color: #030d16 !important;
+  transition: 0.3s !important;
+  position: sticky !important;
+  top: 0 !important;
+}
+.headerbackground-a{
+  box-shadow: 0px 0px 3px 1px rgba(10, 68, 122, 0.7) !important;
+  padding: 0px 10px !important;
+  background-color: rgba(3, 13, 22,0.3) !important;
+  transition: 0.3s !important;
+  position: sticky !important;
+  top: 0 !important;
+}
 .landingpageheaderlogo img {
   width: 100%;
 }
@@ -79,7 +70,7 @@
   width: 30%;
 }
 
-.btn-link-a{
+.btn-link-a {
   position: relative;
   padding: 10px 20px;
   font-family: Poppins-SemiBold;
@@ -87,13 +78,13 @@
   transition: 0.3s;
 }
 
-.btn-link-a span{
-   color: #08c3de;
-   transition: 0.3s;
+.btn-link-a span {
+  color: #08c3de;
+  transition: 0.3s;
   cursor: pointer;
   font-size: 15px;
 }
-.btn-link-a span::after{
+.btn-link-a span::after {
   content: "";
   position: absolute;
   background-color: #08c3de;
@@ -103,7 +94,6 @@
   bottom: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
-
 
 .linkbtn {
   display: flex;
@@ -127,9 +117,9 @@
   transition: 0.3s;
 }
 
-.reg-btn button:hover{
-    background-color: white;
-    color: #08c3de;
+.reg-btn button:hover {
+  background-color: white;
+  color: #08c3de;
 }
 
 /* landingpagecontect */
@@ -209,18 +199,18 @@
   margin-top: 50px;
   border: 1px solid #a9a5a5;
 }
-.filters{
-    padding: 10px 15px;
-    text-align: left;
-    font-size: 22px;
-    font-family: "Poppins-SemiBold";
-    padding-bottom: 0px;
+.filters {
+  padding: 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  font-family: "Poppins-SemiBold";
+  padding-bottom: 0px;
 }
-.more-option{
+.more-option {
   margin: 0;
 }
 
-.load-more{
+.load-more {
   font-family: "Poppins-Regular";
   color: #08c3de;
   margin-left: 17px;
@@ -232,80 +222,77 @@
   transition: 0.2s;
 }
 
-.load-more span:hover{
+.load-more span:hover {
   color: orangered;
 }
-.load-more span{
+.load-more span {
   cursor: pointer;
   transition: 0.2s;
 }
 
-.footer{
-  margin-top: 30px;  
+.footer {
+  margin-top: 30px;
   background-color: #030d16;
   color: white;
 }
 
-.footer-content{
+.footer-content {
   display: grid;
   grid-template-columns: 35% 20% 20% 25%;
   padding: 20px 0px;
 }
 
-.footer-box-1 .adress-content{
+.footer-box-1 .adress-content {
   width: 70%;
   text-align: center;
   display: grid;
-    place-items: center;
-    padding: 20px;
+  place-items: center;
+  padding: 20px;
 }
-.footer-box-1{
+.footer-box-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
 
-
-
-.footer-box-1 .adress-content h3{
+.footer-box-1 .adress-content h3 {
   font-family: "Poppins-Bold";
   margin-bottom: 5px;
   color: #08c3de;
 }
-.footer-box-1 .adress-content p{
+.footer-box-1 .adress-content p {
   font-family: "Poppins-Regular";
   font-size: 13px;
 }
 .footer-box-1 .adress-content {
   background-color: #0e1f2f;
-  border-top:4px solid #08c3de ;
+  border-top: 4px solid #08c3de;
   border-radius: 3px;
 }
 
-.footer-icon{
+.footer-icon {
   display: flex;
   gap: 10px;
-  padding: 10px 0px ;
+  padding: 10px 0px;
   padding-bottom: 0px;
 }
-.icon-footer{
+.icon-footer {
   background-color: #030d16 !important;
-  border-radius:5px ;
+  border-radius: 5px;
   transition: 0.3s !important;
   cursor: pointer;
 }
 
-.icon-footer:hover{
- background-color: #096f7e !important;
+.icon-footer:hover {
+  background-color: #096f7e !important;
 }
 
-.footer-box-2 .header-footer h3{
+.footer-box-2 .header-footer h3 {
   font-family: "Poppins-SemiBold";
- 
 }
 
-.links-name{
+.links-name {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -313,24 +300,31 @@
   margin-top: 20px;
   padding-left: 10px;
   font-family: "Poppins-Regular";
+  
 }
-.footer-box-4{
+ .links-name text{
+  transition: 0.3s;
+  cursor: pointer;
+ }
+.links-name text:hover {
+  color: #08c3de;
+}
+
+
+.footer-box-4 {
   padding: 0px 15px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.logo-box-footer img{
+.logo-box-footer img {
   width: 100%;
-
 }
 
-.logo-box-footer{
+.logo-box-footer {
   width: 50%;
 }
-
-
 
 /* homepage */
 
@@ -341,8 +335,8 @@
   background-size: cover;
   position: relative;
   display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 .hero-img::after {
   content: "";
@@ -362,20 +356,20 @@
   margin-top: 30px;
 }
 
-.hero-img .hero-container h1{
+.hero-img .hero-container h1 {
   font-family: "Poppins-SemiBold";
-   color: #fff; 
-    margin: 0;
-    font-size: 48px;
-    font-weight: 700;
+  color: #fff;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
 }
 
-.hero-img .hero-container p{
+.hero-img .hero-container p {
   font-family: "Poppins-Regular";
   color: white;
 }
 
-.hero-img .hero-container .btn{
+.hero-img .hero-container .btn {
   font-family: "Poppins-Regular";
   font-weight: 500;
   font-size: 14px;
@@ -391,15 +385,45 @@
   margin-top: 15px;
   border: transparent;
   cursor: pointer;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container .btn .readmore {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
+.hero-container .btn .readmore:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transform: translateY(-25%);
+  right: -20px;
+  font-size: 28px;
+  transition: 0.5s;
+}
 
-.aboutus{
+.hero-container .btn:hover .readmore {
+  padding-right: 18px;
+}
+
+.hero-container .btn:hover .readmore:after {
+  opacity: 1;
+  right: 0;
+}
+.hero-container .btn:hover{
+  background-color: #055e6b;
+}
+
+.aboutus {
   padding: 60px 0;
 }
 
-.sub-title{
+.sub-title {
   text-align: center;
 }
 .sub-title h2 {
@@ -426,24 +450,23 @@
   margin: 0 0 10px 15px;
 }
 
-
-.aboutus-content{
+.aboutus-content {
   display: grid;
   grid-template-columns: 50% 50%;
-  
 }
 
-.aboutus-box-1,.aboutus-box-2{
+.aboutus-box-1,
+.aboutus-box-2 {
   padding: 0px 25px;
 }
 
-.aboutus-box-1 p{
+.aboutus-box-1 p {
   font-family: "Poppins-Regular";
   color: #444444;
   font-size: 14px;
 }
 
-.aboutus-box-1 ul li{
+.aboutus-box-1 ul li {
   font-family: "Poppins-Regular";
   color: #444444;
   font-size: 14px;
@@ -454,18 +477,18 @@
   gap: 10px;
 }
 
-.aboutus-box-2 h3{
+.aboutus-box-2 h3 {
   margin-top: 8px;
   font-family: "Poppins-SemiBold";
   color: #08c3de;
 }
-.aboutus-box-2 p{
+.aboutus-box-2 p {
   font-family: "Poppins-Regular";
   color: #444444;
   font-size: 14px;
 }
 
-.aboutus-box-2 .btn{
+.aboutus-box-2 .btn {
   font-family: "Poppins-Regular";
   font-weight: 500;
   font-size: 14px;
@@ -482,109 +505,135 @@
   border: transparent;
   cursor: pointer;
 }
-
-
-.Our-Services{
+.aboutus-box-2 .btn:hover{
+  background-color: #055e6b;
+}
+.Our-Services {
   background-color: #f4f4f4;
 }
 
-.Our-Services-divide{
+.Our-Services-divide {
   display: grid;
   grid-template-columns: 40% 60%;
 }
 
-.services-header h2{
-   font-family: "Poppins-SemiBold";
+.services-header h2 {
+  font-family: "Poppins-SemiBold";
 }
-.our-service-box-1 p{
+.our-service-box-1 p {
   font-family: "Poppins-Regular";
   color: #444444;
 }
-.our-service-box-2{
+.our-service-box-2 {
   padding: 20px;
 }
-.our-service-box-2 .our-service-box-2-content{
+.our-service-box-2 .our-service-box-2-content {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.service-content-1,.service-content-2{
+.service-content-1,
+.service-content-2 {
   padding: 20px;
 }
-.service-content-1{
+.service-content-1 {
   margin-top: 35px;
 }
 
 
-.service-content-1 div:nth-child(1){
+.service-content-1 div:nth-child(1) {
   padding: 50px 40px;
   border-radius: 10px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   background-color: white;
 }
-.service-content-1 div:nth-child(1) h3{
+.service-content-1 div:nth-child(1) h3 {
   font-family: "Poppins-SemiBold";
 }
-.service-content-1 div:nth-child(1) p{
+.service-content-1 div:nth-child(1) p {
   font-family: "Poppins-Regular";
   color: #444444;
   font-size: 14px;
 }
 
-
-.service-content-1 div:nth-child(2){
+.service-content-1 div:nth-child(2) {
   padding: 50px 40px;
   border-radius: 10px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   background-color: white;
 }
-.service-content-1 div:nth-child(2) h3{
+.service-content-1 div:nth-child(2) h3 {
   font-family: "Poppins-SemiBold";
 }
-.service-content-1 div:nth-child(2) p{
+.service-content-1 div:nth-child(2) p {
   font-family: "Poppins-Regular";
   color: #444444;
   font-size: 14px;
 }
 
-.service-content-2 div:nth-child(1){
+.service-content-2 div:nth-child(1) {
   padding: 50px 40px;
   border-radius: 10px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   background-color: white;
 }
-.service-content-2 div:nth-child(1) h3{
+.service-content-2 div:nth-child(1) h3 {
   font-family: "Poppins-SemiBold";
 }
-.service-content-2 div:nth-child(1) p{
+.service-content-2 div:nth-child(1) p {
   font-family: "Poppins-Regular";
   color: #444444;
   font-size: 14px;
 }
-.service-content-2 div:nth-child(2){
+.service-content-2 div:nth-child(2) {
   padding: 50px 40px;
   border-radius: 10px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   background-color: white;
   margin-top: 20px;
 }
-.service-content-2 div:nth-child(2) h3{
+.service-content-2 div:nth-child(2) h3 {
   font-family: "Poppins-SemiBold";
 }
-.service-content-2 div:nth-child(2) p{
+.service-content-2 div:nth-child(2) p {
   font-family: "Poppins-Regular";
   color: #444444;
   font-size: 14px;
 }
-.services-header{
+
+
+
+
+
+.service-content-1 div:nth-child(1):hover .service-icon{
+  background-color: #08c3de;
+  color: white;
+}
+
+.service-content-1 div:nth-child(2):hover .service-icon{
+  background-color: #08c3de;
+  color: white;
+}
+.service-content-2 div:nth-child(1):hover .service-icon{
+  background-color: #08c3de;
+  color: white;
+}.service-content-2 div:nth-child(2):hover .service-icon{
+  background-color: #08c3de;
+  color: white;
+}
+
+
+
+.services-header {
   color: #08c3de;
 }
 
-.service-icon{
-  background-color:rgba(129,255,238,0.2) ;
+.service-icon {
+  background-color: rgba(129, 255, 238, 0.2);
+  transition: 0.5s !important;
 }
-.our-service-box-1{
+.our-service-box-1 {
   display: grid;
   place-items: center;
 }

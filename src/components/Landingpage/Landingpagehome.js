@@ -27,7 +27,7 @@ const Landingpagehome = () => {
             services] solutions.
           </p>
           <button variant="contained" className="btn">
-            Read more
+           <span className="readmore">Read more </span> 
           </button>
         </div>
       </div>
