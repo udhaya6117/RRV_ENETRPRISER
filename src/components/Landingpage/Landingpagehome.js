@@ -18,7 +18,7 @@ const Landingpagehome = () => {
   return (
     <div>
       <div className="hero-img">
-        <div class="hero-container">
+        <div class="hero-container anim">
           <h1>Welcome to RRV Enterprise</h1>
           <p>
             At RRV Enterprise, we extend a warm and sincere welcome to you. Step
